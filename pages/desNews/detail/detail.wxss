@@ -1,0 +1,40 @@
+/* 头部图片信息 */
+.top_banner {
+  width: 100%;
+}
+/* 中间部分标题信息 */
+.top_msg {
+  border-top: 1rpx solid #eeeeee;
+  border-bottom: 1rpx solid #eeeeee;
+  margin: 20rpx 0;
+  border-radius: 15rpx;
+}
+.top_msg .title_msg {
+  width: 85%;
+  margin: 10rpx 35rpx ;
+  display: block;
+  color: #333333;
+  font-size: 36rpx;
+}
+.top_msg .time_see {
+  width: 90%;
+  margin: 10rpx auto;
+  font-size: 24rpx;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.top_msg .time_see image {
+  width: 32rpx;
+  height: 20rpx;
+}
+.top_msg .time_see view text {
+  margin-left: 20rpx;
+}
+.cotain_text {
+  width: 87%;
+  margin: 40rpx;
+  font-size: 32rpx;
+  color: #333333;
+}

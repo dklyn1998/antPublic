@@ -1,0 +1,294 @@
+/* 顶部背景样式 */
+.colorBackground{
+    background-image: linear-gradient(to right,#FF3333, #FF9966);
+    width: 100%;
+    height: 200rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    text{
+        display: block;
+        padding-top: 80rpx;
+        font-size: 28rpx;
+        margin-left: 30rpx;
+        color: #fff;
+    }
+}
+.main_cart{
+    margin-top: 130rpx;
+}
+/* 总体的样式 */
+.goods_info{
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    padding-top: 20rpx;
+    display: flex;
+    padding-left: 20rpx;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx 2rpx rgba(153, 153, 153, .27);
+    .checkbox_goods{
+         .wx-checkbox-input {
+            width: 30rpx;
+            height: 30rpx;
+            border-radius: 50%;
+          }
+          .wx-checkbox-input.wx-checkbox-input-checked {
+            background-image: linear-gradient(to right,#FF3333, #FF9966);
+          }
+          .wx-checkbox-input.wx-checkbox-input-checked::before {
+            display: none;
+          }
+    }
+    .sure_left{
+        image{
+            width: 250rpx;
+            height: 250rpx;
+            border-radius: 10rpx;
+            margin-right: 30rpx;
+        }
+    }
+    .youhuiquan{
+        font-size: 28rpx;
+        color: #999999;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 20rpx;
+        image{
+            width: 15rpx;
+            height: 30rpx;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_name{
+        display: flex;
+        align-items: center;
+        text{
+            font-size: 28rpx;
+            color: #333333;
+        }
+        image{
+            margin-left: 10rpx;
+            &:nth-of-type(1){
+                width: 30rpx;
+                height: 23rpx;
+            }
+            &:nth-of-type(2){
+                width: 24rpx;
+                height: 24rpx;
+            }
+        }
+    }
+    
+    .tag_zan{
+        margin-top: 20rpx;
+        display: flex;
+        justify-content: space-between;
+        .tag{
+            font-size: 22rpx;
+            color: #999999;
+            text{
+                margin-right: 10rpx;
+                padding:5rpx;
+                border: 1rpx solid #999999;
+                border-radius: 4rpx;
+            }
+        }
+        
+    }
+    .money_area{
+        margin-top: 20rpx;
+        display: block;
+        color: #FF4D41;
+        font-size: 28rpx;
+    }
+    .people_area{
+        font-size: 22rpx;
+        color: #999999;
+    }
+    
+}
+/* 金额和数量的修改 */
+.num_money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .button_ctrl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            width:72rpx ;
+            height: 35rpx;
+            border-top: 1rpx solid #eee;
+            border-bottom: 1rpx solid #eee;
+            min-height:30rpx;
+            font-size:22rpx ;
+            text-align: center;
+            padding: 0;
+        }
+        button{
+            width: 40rpx;
+            height: 40rpx;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            line-height: 35rpx;
+            color: #999999;
+            &::after{
+                border: 4rpx solid #eee;
+
+            }
+        }
+    }
+}
+/* 可能还喜欢样式部分 */
+.may_love{
+    width: 100%;
+    display: block;
+    margin: 50rpx auto;
+    width: 50%;
+}
+/* 底部图片部分 */
+/* 顶部总宽度90% */
+.pic_area{
+    width: 90%;
+    margin: 20rpx auto;
+    margin-bottom: 70rpx;//距离底部距离
+    column-count: 2;
+    column-gap: 20rpx;
+}
+.pic_area>.pic_display{
+    width: 100%;
+    margin-bottom: 30rpx;
+    box-shadow: 0 0 3rpx 3rpx rgba(0, 0, 0, .14);
+    /* break-inside: avoid; */
+    /* height: 500rpx; */
+    border-radius: 10rpx;
+
+}
+.pic_area>.pic_display:nth-child(2n-1){
+    margin-right: 20rpx;
+}
+.pic_area>.pic_display>image{
+    width: 100%;
+}
+.pic_area>.pic_display>text{
+    color: #333333;
+    font-size: 28rpx;
+    line-height: 28rpx;
+    padding-left: 10rpx;
+}
+.pic_area>.pic_display>.textarea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:20rpx 0 30rpx 0;
+}
+.money_class{
+    display: block;
+    color: #FF4D41;
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+}
+/* 预定按钮设置 */
+.prebook{
+    width: 100rpx;
+    height: 50rpx;
+    float: right;
+    text-align: center;
+    line-height: 50rpx;
+    background: #FF4D41;
+    font-size: 28rpx;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-left: 40rpx;
+    margin-top: 30rpx;
+    
+}
+/* 样式抽离星星和火花 */
+.money_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .usless_icon{
+        image{
+            width: 22rpx;
+            height: 22rpx;
+            vertical-align:middle;
+        }
+        .fire{
+            width: 15rpx;
+            height: 20rpx;
+            margin-left: 10rpx;
+        }
+        text{
+            font-size: 14rpx;
+            color: #FF4D41;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_money{
+        margin-right: 20rpx;
+        .g_money{
+            color: #FF4D41;
+            font-size: 36rpx;
+        }
+        .cn_qi{
+            color: #999999;
+            font-size: 22rpx;
+        }
+    }
+}
+    /* 最底部的结算按钮 */
+.calc_goods{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30rpx;
+        align-items: center;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        height: 80rpx;
+        bottom:0;
+        left: 0;
+        font-size: 24rpx;
+        color: #999999;
+    radio .wx-radio-input{
+        border-radius: 50%;/* 圆角 */
+        width: 30rpx;
+        height: 30rpx;
+    }
+    /* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+    radio .wx-radio-input.wx-radio-input-checked{
+        background-color: #FF4D41;
+    }
+    /* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+    radio .wx-radio-input.wx-radio-input-checked::before{
+        display: none;
+    }
+    .calc_money_btn{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        button{
+            width: 130rpx;
+            height: 60rpx;
+            font-size:24rpx ;
+            color: #fff;
+            background-color:#FF4D41;
+            border-radius: 30rpx;
+            margin-right: 50rpx;
+            margin-left: 30rpx;
+        }
+    }
+}

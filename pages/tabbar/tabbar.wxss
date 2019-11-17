@@ -1,0 +1,25 @@
+/* .tabs{} */
+.tabs_title{
+    display:flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color:#fff;
+    height: 60rpx;
+}
+.title_item{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #666666;
+    font-size: 26rpx;
+    /* 文字溢出后滑动 */
+    /* overflow: scroll;
+    text-overflow: clip;
+    white-space: nowrap; */
+}
+.active{
+    color:#333333;
+    border-bottom: 5rpx solid #FF3534;
+}

@@ -1,0 +1,61 @@
+<!-- 引入组件搜索栏-->
+<serach></serach>
+<!--引入swiper组件-->
+<logodis></logodis>
+<!--tab选项卡区域-->
+<view class='tabs'>
+    <view class='tabs_title'>
+    <view 
+    wx:for="{{tabs}}"
+    wx:key="id"
+    class='title_item {{item.isActive?"active":""}}'
+    bindtap="handletap"
+    data-index="{{index}}"
+    >
+        {{item.name}}
+    </view>
+    </view>
+</view>
+<!--- 下方推荐区域-->
+<view class='mian'>
+    <view class='left'>
+        <text>古典风格 画册设计</text>
+        <view class='left_bottom'>
+            <image src="../../images/index/2.jpg" class='border'/>
+            <text>设计界的菜鸟</text>
+            <text>浏览 125</text>
+            <image class='zan'src="../../images/index/zan1.png" />
+            <text class='mar_fix'>222</text>
+        </view>
+    </view>
+    <navigator class='right' url='./detail/detail'>
+    <image src="../../images/index/testant_03.png" />
+    </navigator>
+    <!---第二个 第三个  直接复制的-->
+    <view class='left'>
+        <text>古典风格 画册设计</text>
+        <view class='left_bottom'>
+            <image src="../../images/index/2.jpg" class='border'/>
+            <text>设计界的菜鸟</text>
+            <text>浏览 125</text>
+            <image class='zan'src="../../images/index/zan1.png" />
+            <text class='mar_fix'>222</text>
+        </view>
+    </view>
+    <navigator class='right' url='./detail/detail'>
+    <image src="../../images/index/testant_03.png" />
+    </navigator>
+    <view class='left'>
+        <text>古典风格 画册设计</text>
+        <view class='left_bottom'>
+            <image src="../../images/index/2.jpg" class='border'/>
+            <text>设计界的菜鸟</text>
+            <text>浏览 125</text>
+            <image class='zan'src="../../images/index/zan1.png" />
+            <text class='mar_fix'>222</text>
+        </view>
+    </view>
+    <navigator class='right' url='./detail/detail'>
+    <image src="../../images/index/testant_03.png" />
+    </navigator>
+</view>

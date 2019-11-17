@@ -1,0 +1,241 @@
+<!--橘红色背景-->
+<view class="colorBackground"><text>共4个订单</text></view>
+<!--中间购物篮部分-->
+  <view class='main_cart'>
+  <!--每个单独部分-->
+    <view class='goods_info'>
+        <checkbox class='checkbox_goods'>
+        
+            </checkbox>
+        <view class='sure_left'>
+            <image src="../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+        <view class='goods_name'>
+            <text>企业画册设计</text>
+            <image src="../../images/index/detail/youhuijuan@2x.png" />
+            <image src="../../images/index/detail/active.png" />
+        </view>
+        <view class='money_icon'>
+            <view class='usless_icon'>
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                <text>HOT</text>
+            </view>
+        </view>
+        <view class='tag_zan'>
+            <view class='tag'>
+                <text>优秀设计师</text>
+                <text>资深设计师</text>
+            </view>
+            
+        </view>
+        <view class='num_money'>
+             <text class='money_area'>￥99</text>
+                <view class='button_ctrl'>
+                    <button bindtap='numLess' hover-class="bg_red">-</button>
+                    <input value='{{kindNum}}' />
+                    <button bindtap="numAdd" hover-class="bg_red">+</button>
+                </view>
+            </view>
+    </view>
+    </view>
+    <view class='goods_info'>
+        <checkbox class='checkbox_goods'>
+        
+            </checkbox>
+        <view class='sure_left'>
+            <image src="../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+        <view class='goods_name'>
+            <text>企业画册设计</text>
+            <image src="../../images/index/detail/youhuijuan@2x.png" />
+            <image src="../../images/index/detail/active.png" />
+        </view>
+        <view class='money_icon'>
+            <view class='usless_icon'>
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                <text>HOT</text>
+            </view>
+        </view>
+        <view class='tag_zan'>
+            <view class='tag'>
+                <text>优秀设计师</text>
+                <text>资深设计师</text>
+            </view>
+            
+        </view>
+        <view class='num_money'>
+             <text class='money_area'>￥99</text>
+                <view class='button_ctrl'>
+                    <button bindtap='numLess' hover-class="bg_red">-</button>
+                    <input value='{{kindNum}}' />
+                    <button bindtap="numAdd" hover-class="bg_red">+</button>
+                </view>
+            </view>
+    </view>
+    </view>
+    <view class='goods_info'>
+        <checkbox class='checkbox_goods'>
+        
+            </checkbox>
+        <view class='sure_left'>
+            <image src="../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+        <view class='goods_name'>
+            <text>企业画册设计</text>
+            <image src="../../images/index/detail/youhuijuan@2x.png" />
+            <image src="../../images/index/detail/active.png" />
+        </view>
+        <view class='money_icon'>
+            <view class='usless_icon'>
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail/star.png" />
+                <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                <text>HOT</text>
+            </view>
+        </view>
+        <view class='tag_zan'>
+            <view class='tag'>
+                <text>优秀设计师</text>
+                <text>资深设计师</text>
+            </view>
+            
+        </view>
+        <view class='num_money'>
+             <text class='money_area'>￥99</text>
+                <view class='button_ctrl'>
+                    <button bindtap='numLess' hover-class="bg_red">-</button>
+                    <input value='{{kindNum}}' />
+                    <button bindtap="numAdd" hover-class="bg_red">+</button>
+                </view>
+            </view>
+    </view>
+    </view>
+</view>
+<!--- 可能还喜欢-->
+<image src="../../images/shoppingcar/maylove.png" class='may_love' mode='widthFix'/>
+<!-- 下方瀑布流推荐出现-->
+   <!-- 图片区域设置-->
+   <view class='pic_area'>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='button_fire'>
+                <view class='textarea'>
+                <view class='money_icon'>
+                    <view class='usless_icon'>
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                        <text>HOT</text>
+                        <button class='prebook'>预定</button>
+                    </view>
+                </view>
+                <text class='money_class'>￥99.00</text>
+                
+            </view>
+            
+            </view>
+            
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='button_fire'>
+                <view class='textarea'>
+                <view class='money_icon'>
+                    <view class='usless_icon'>
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                        <text>HOT</text>
+                        <button class='prebook'>预定</button>
+                    </view>
+                </view>
+                <text class='money_class'>￥99.00</text>
+                
+            </view>
+            
+            </view>
+            
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='button_fire'>
+                <view class='textarea'>
+                <view class='money_icon'>
+                    <view class='usless_icon'>
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                        <text>HOT</text>
+                        <button class='prebook'>预定</button>
+                    </view>
+                </view>
+                <text class='money_class'>￥99.00</text>
+                
+            </view>
+            
+            </view>
+            
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='button_fire'>
+                <view class='textarea'>
+                <view class='money_icon'>
+                    <view class='usless_icon'>
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail/star.png" />
+                        <image src="../../images/index/detail//huo1@2x.png" class='fire'/>
+                        <text>HOT</text>
+                        <button class='prebook'>预定</button>
+                    </view>
+                </view>
+                <text class='money_class'>￥99.00</text>
+                
+            </view>
+            
+            </view>
+            
+      </view>
+    </view>
+      <!--- 最底部结算按钮-->
+      <view class='calc_goods'>
+          <radio class='radio'>
+              全选
+          </radio>
+            <view class='calc_money_btn'>
+                <text>共1件商品，合计¥99.00</text>
+                <button >结算</button>
+            </view>
+      </view>

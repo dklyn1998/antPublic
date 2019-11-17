@@ -1,0 +1,108 @@
+<view class='goods_info'>
+    <view class='sure_left'>
+        <image src="../../../../images/index/detail/bareimg.png" />
+    </view>
+    <view class='sure_right'>
+        <view class='goods_name'>
+            <text>企业画册设计</text>
+            <image src="../../../../images/index/detail/youhuijuan@2x.png" />
+            <image src="../../../../images/index/detail/active.png" />
+        </view>
+        <view class='money_icon'>
+            <view class='usless_icon'>
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail//huo1@2x.png" class='fire'/>
+                <text>HOT</text>
+            </view>
+        </view>
+        <view class='tag_zan'>
+            <view class='tag'>
+                <text>优秀设计师</text>
+                <text>资深设计师</text>
+            </view>
+            
+        </view>
+        <view class='money_area_status'>
+            <text class='money_area'>￥99</text>
+            <text>待付款</text>
+        </view>
+        
+        <text class='people_area'> 13分钟前有人预定</text>
+    </view>
+    
+</view>
+<view class='pay_num'>
+    <text>购买数量</text>
+    <text>✖1</text>
+</view>
+<view class='choose_info'>
+    <view class='specs_info'>
+    <text>规格参数</text>
+    <text>英文标</text>
+      </view>
+</view>
+<!--手机号码-->
+<view class='phone_num'>
+    <text>手机号码</text>
+    <text>18328400756</text>
+</view>
+<!--订单总金额-->
+<view class='total_money'>
+    <text>订单总金额</text>
+    <text>￥699</text>
+</view>
+<!--开发票-->
+<view class='fapiao'>
+    <text>发票信息</text>
+</view>
+<!-- 开发票内容-->
+<view class='isfapiao'>
+    <view class='fapiap_contain'>
+        <text>公司名称</text>
+        <text>成都市中浩天际科技有限公司</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>纳税人识别号</text>
+       <text>11111111111122222233445</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>公司地址</text>
+        <text>成都市高新区365号2栋702</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>联系电话</text>
+        <text>13333333333</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>开户行</text>
+        <text>成都市高新区</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>账号</text>
+        <text>11111111111122222233445</text>
+    </view>
+</view>
+<!--制作流程-->
+<view class='liucheng'>
+    <text>订单进度</text>
+</view>
+<!-- 底部信息客服等-->
+<view class='bottom_msg'>
+    <view class='connect'>
+        <image src="../../../../images/user/call.png" />
+        <text>联系客服</text>
+    </view>
+    <view class='del'>
+        删除订单
+    </view>
+    <view class='see_pic'>
+        查看图片
+    </view>
+    <view class='down_load'>
+        下载源文件
+    </view>
+</view>

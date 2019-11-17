@@ -1,0 +1,92 @@
+page {
+  background-color: #F7F7F7;
+}
+/* .tabs{} */
+.tabs_title {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: #fff;
+  height: 60rpx;
+}
+.title_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 26rpx;
+  /* 文字溢出后滑动 */
+  /* overflow: scroll;
+    text-overflow: clip;
+    white-space: nowrap; */
+  width: 19%;
+  height: 80%;
+  line-height: 60rpx;
+  margin-top: 7rpx;
+}
+.active {
+  color: #fff;
+  background-image: linear-gradient(to right, #FF3333, #FF9966);
+  border-radius: 25rpx;
+}
+/* 下方信息区域 */
+.mian {
+  width: 95%;
+  margin: 20rpx auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mian .left {
+  display: flex;
+  border-radius: 10rpx 0  0 10rpx;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20rpx ;
+  height: 180rpx;
+  flex: 5;
+}
+.mian .left:nth-of-type(2n-1) {
+  background-color: #6E533E;
+}
+.mian .left:nth-of-type(2n) {
+  background-color: #5F5A57;
+}
+.mian .left text {
+  font-size: 28rpx;
+  color: #fff;
+  font-weight: bold;
+}
+.mian .left .left_bottom {
+  display: flex;
+  align-items: center;
+}
+.mian .left .left_bottom image {
+  width: 18rpx;
+  height: 18rpx;
+  margin-left: 20rpx;
+}
+.mian .left .left_bottom text {
+  font-size: 22rpx;
+  font-weight: normal;
+  margin-left: 20rpx;
+  /* &:nth-child(2){
+                     margin:0 !important;
+                 } */
+}
+.mian .left .left_bottom .mar_fix {
+  margin: 6rpx;
+}
+.mian .left .left_bottom .border {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  margin-left: 0;
+}
+.mian .right {
+  flex: 2;
+}
+.mian .right image {
+  width: 260rpx;
+  height: 180rpx;
+}

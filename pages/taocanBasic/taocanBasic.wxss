@@ -1,0 +1,38 @@
+/* .tabs{} */
+.tabs_title{
+    display:flex;
+    justify-content: space-around;
+    height: 80rpx;
+}
+.title_item{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666666;
+    font-size: 26rpx;
+    position: relative;
+    height: 80rpx;
+    
+}
+.active{
+    color:#333333;
+    border-bottom: 5rpx solid #FF3534;
+}
+.hot{
+    width: 40rpx;
+    height: 20rpx;
+    font-size: 16rpx;
+    background-image: linear-gradient(to right,#FF3333,#FF9966);
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 30rpx;
+    border-radius: 0 10rpx;
+    
+}
+/* 下面图片处理 */
+.innerimg{
+    width: 100%;
+}

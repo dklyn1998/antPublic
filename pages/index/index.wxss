@@ -1,0 +1,148 @@
+/* 整页padding */
+page{
+    background-color: #fff;
+}
+/* 头部搜索栏区域 */
+
+/* 中间swiper区域 */
+
+/* 小图标调整 */
+.fire{
+    width:28rpx !important;
+    height:34rpx !important;
+}
+.flag{
+    width:23rpx !important;
+    height:32rpx !important;
+}
+.youhuiquan{
+    width:30rpx !important;
+    height:23rpx !important;
+}
+/* HOT右上角显示 */
+.hotpic{
+    width: 40rpx;
+    height: 20rpx;
+    font-size: 16rpx;
+    background-image: linear-gradient(to right,#FF3333,#FF9966);
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 10rpx;
+}
+/* 公告栏 */
+.notice{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 120rpx;
+    background-color: #fff;
+    border-radius: 6rpx;
+    box-shadow:  0 0 10rpx 6rpx rgba(0, 0, 0, .14);
+    margin:20rpx auto;
+    padding-left: 20rpx;
+}
+/* 公告栏左边 */
+.notice>.leftpic{
+    flex: 1;
+    padding-right: 20rpx;
+    /* margin-left: ; */
+    margin-right: 30rpx;
+    border-right: 1rpx solid #c3c3c3;
+}
+.notice>.leftpic>image{
+    width: 92rpx;
+    height: 44rpx;
+}
+.notice>.leftpic>text{
+    color: #fff;
+    font-size: 26rpx;
+    position: absolute;
+    left:60rpx;
+    line-height: 45rpx;
+    font-weight:bold
+}
+/* 右边滑动区域 */
+.righttext{
+    flex: 6;
+    height: 100rpx;
+}
+.textjob{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.textjob>view>text:nth-child(1){
+    color: #F0825C;
+    font-size: 24rpx;
+    border: 1rpx solid #F0825C;
+    padding:3rpx 8rpx;
+    border-radius: 6rpx;
+}
+.textjob>view>text:nth-child(2){
+    color: #b1b1b1;
+    font-size: 24rpx;
+    margin-left: 20rpx;
+}
+/* 广告部分 */
+
+.adlogo{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+/* 底部图片部分 */
+/* 顶部总宽度90% */
+.pic_area{
+    width: 95%;
+    margin: 20rpx auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: row wrap; */
+    column-count: 2;
+    column-gap: 20rpx;
+}
+.pic_area>.pic_display{
+    width: 100%;
+    margin-bottom: 30rpx;
+    box-shadow: 0 0 3rpx 3rpx rgba(0, 0, 0, .14);
+    /* break-inside: avoid; */
+    /* height: 500rpx; */
+    border-radius: 10rpx;
+
+}
+.pic_area>.pic_display:nth-child(2n-1){
+    margin-right: 20rpx;
+}
+.pic_area>.pic_display>image{
+    width: 100%;
+}
+.pic_area>.pic_display>text{
+    color: #333333;
+    font-size: 28rpx;
+    line-height: 28rpx;
+    padding-left: 10rpx;
+}
+.pic_area>.pic_display>.textarea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20rpx 0 30rpx 0;
+}
+.pic_area>.pic_display>.textarea>image{ 
+    width: 36rpx;
+    height: 36rpx;
+}
+.pic_area>.pic_display>.textarea>.borderfix{
+    border-radius: 50%;
+}
+
+.pic_area>.pic_display>.textarea>text{
+    color: #333;
+    font-size: 24rpx;
+}

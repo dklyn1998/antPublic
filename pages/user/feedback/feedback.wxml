@@ -1,0 +1,5 @@
+<view class='feedback'>
+    <textarea auto-height auto-focus maxlength='200' placeholder="请输入反馈内容，我们会为您更好的服务" />
+</view>
+<image src="../../../images/user/camer.png" class='camera' mode='widthFix'/>
+<button >提交</button>

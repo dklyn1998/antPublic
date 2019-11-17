@@ -1,0 +1,53 @@
+.bgimg {
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  margin-top: 20rpx;
+  color: #333333;
+}
+.main .top_title {
+  font-size: 36rpx;
+}
+.main .title_msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .title_msg .leftmsg {
+  display: flex;
+  align-items: center;
+}
+.main .title_msg .leftmsg image {
+  width: 50rpx ;
+  height: 50rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.main .title_msg .leftmsg .user_name {
+  font-size: 28rpx;
+}
+.main .title_msg .leftmsg .user_time {
+  display: block;
+  color: #999999;
+  font-size: 20rpx;
+}
+.main .title_msg .rightmsg {
+  margin-right: 40rpx;
+  font-size: 24rpx;
+}
+.main .title_msg .rightmsg .zan {
+  width: 26rpx;
+  height: 26rpx;
+  margin: 0 20rpx;
+}
+.main .msgbox {
+  font-size: 24rpx;
+  padding-right: 40rpx;
+  line-height: 45rpx;
+  color: #333333;
+}

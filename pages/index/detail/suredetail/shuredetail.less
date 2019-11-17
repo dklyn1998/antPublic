@@ -1,0 +1,421 @@
+page{
+    background-color: #F9F9F9;
+}
+/* 中间信息部分 */
+.goods_info{
+    background-color: #fff;
+    padding-top: 20rpx;
+    display: flex;
+    padding-left: 20rpx;
+    .sure_left{
+        image{
+            width: 250rpx;
+            height: 250rpx;
+            border-radius: 10rpx;
+            margin-right: 30rpx;
+        }
+    }
+    .youhuiquan{
+        font-size: 28rpx;
+        color: #999999;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 20rpx;
+        image{
+            width: 15rpx;
+            height: 30rpx;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_name{
+        display: flex;
+        align-items: center;
+        text{
+            font-size: 28rpx;
+            color: #333333;
+        }
+        image{
+            margin-left: 10rpx;
+            &:nth-of-type(1){
+                width: 30rpx;
+                height: 23rpx;
+            }
+            &:nth-of-type(2){
+                width: 24rpx;
+                height: 24rpx;
+            }
+        }
+    }
+    .money_icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .usless_icon{
+            image{
+                width: 22rpx;
+                height: 22rpx;
+                vertical-align:middle;
+            }
+            .fire{
+                width: 15rpx;
+                height: 20rpx;
+                margin-left: 10rpx;
+            }
+            text{
+                font-size: 14rpx;
+                color: #FF4D41;
+                margin-left: 10rpx;
+            }
+        }
+        .goods_money{
+            margin-right: 20rpx;
+            .g_money{
+                color: #FF4D41;
+                font-size: 36rpx;
+            }
+            .cn_qi{
+                color: #999999;
+                font-size: 22rpx;
+            }
+        }
+    }
+    .tag_zan{
+        margin-top: 20rpx;
+        display: flex;
+        justify-content: space-between;
+        .tag{
+            font-size: 22rpx;
+            color: #999999;
+            text{
+                margin-right: 10rpx;
+                padding:5rpx;
+                border: 1rpx solid #999999;
+                border-radius: 4rpx;
+            }
+        }
+        
+    }
+    .money_area{
+        margin-top: 20rpx;
+        display: block;
+        color: #FF4D41;
+        font-size: 28rpx;
+    }
+    .people_area{
+        font-size: 22rpx;
+        color: #999999;
+    }
+    
+}
+/* 用户选择信息 */
+/* 购买数量 */
+.pay_num{
+    margin-top: 10rpx;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    .button_ctrl{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        button{
+            width: 40rpx;
+            height: 40rpx;
+            margin: 0;
+            padding: 0;
+            font-size:24rpx ;
+            line-height: 40rpx;
+            background-color: #fff;
+            border-radius: 0;
+            &::after{
+                border: 4rpx solid #eee;
+
+            }
+            .bg_red{
+                background-color: #FF4D41;
+            }
+        }
+        input{
+            font-size:24rpx;
+            color: #999999;
+            text-align: center;
+            width:72rpx;
+            min-height:30rpx;
+            height: 38rpx;
+            line-height: 38rpx;
+            text-align: center;
+            border-top: 2rpx solid #eee;
+            border-bottom: 2rpx solid #eee;
+
+        }
+    }
+}
+/* 参数规格 */
+.specs_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    .picker{
+        font-size: 24rpx;
+        color: #666666;
+    }
+    image{
+        width: 15rpx;
+        height: 28rpx;
+    }
+
+}
+
+/* 手机号码 */
+.phone_num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+        flex: 2;
+    }
+    input{
+        font-size: 24rpx;
+        text-align: center;
+        flex: 6;
+    }
+}
+
+/* 发票信息 */
+.fapiao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+}
+/* 发票具体内容 */
+.isfapiao{
+    padding: 20rpx 20rpx;
+    
+    .fapiap_contain{
+        display: flex;
+        justify-content: space-between;
+        height: 60rpx;
+        text,input{
+            font-size: 24rpx;
+            color: #666666;
+        }
+        input{
+            text-align: right;
+        }
+    }
+}
+/* 优惠券 */
+.youhuiquan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    .youhui_bind{
+        text{
+            color: #FF4D41;
+
+        }
+        image{
+            margin-left: 20rpx;
+            width: 19rpx;
+            height: 25rpx;
+        }
+    }
+}
+/* 备注信息区域 */
+.remark{
+    
+    background-color: #fff;
+    display: flex;
+    padding: 20rpx 20rpx;
+    position: relative;
+    height: 260rpx;
+    margin-bottom: 140rpx;
+    text{
+        font-size: 28rpx;
+        color: #333333;
+        margin-right: 30rpx;
+    }
+    textarea{
+        font-size: 24rpx;
+    }
+    image{
+        position: absolute;
+        right: 40rpx;
+        bottom: 60rpx;
+        width: 68rpx;
+        height: 68rpx;
+    }
+    .pictureto{
+        position: absolute;
+        right: 0rpx;
+        bottom: 20rpx;
+        font-size: 24rpx;
+        color: #666666;
+        text-align: right;
+    }
+}
+/* 制作流程 */
+.liucheng{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    image{
+        margin-left: 20rpx;
+        width: 19rpx;
+        height: 25rpx;
+    }
+}
+/* 底部提交订单 */
+.submit_bottom{
+    display: flex;
+    width:100% ;
+    height: 100rpx;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    .inner_msg{
+        margin-left: 180rpx;
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .submit_top_mag{
+            margin-top: 20rpx;
+            display: flex;
+            justify-content: center;
+            text{
+                font-size: 28rpx;
+                text-align: center;
+                &:nth-child(1){
+                    color: #666666;
+                }
+                &:nth-child(2){
+                    color: #FF4D41;
+                }
+            }
+        }
+        text{
+            color: #999999;
+            font-size: 22rpx;
+        }
+    }
+    .submit_btn{
+        margin: 0;
+        padding: 0;
+        width: calc(132.5*2rpx);
+        height: 80rpx;
+        margin-top: 10rpx;
+        border-radius: 40rpx;
+        background-color:#FF4D41;
+        color: #fff;
+        line-height: 80rpx;
+        margin-right: 30rpx;
+    }
+}
+/* 优惠券点击详细 */
+.youhuiquan_detail{
+    padding-left: 30rpx;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    .youhuiquan_title{
+        color: #333333;
+        font-size: 36rpx;
+        text-align: center;
+        margin-top: 23rpx;
+        margin-bottom: 40rpx;
+    }
+    .detail_inner_box{
+        display: flex;
+        margin-top: 40rpx;
+        align-items: center;
+        justify-content: space-between;
+        text{
+         color: #333333;
+         font-size: 28rpx;  
+        }
+        .youhuiquan_right{
+            margin-right: 40rpx;
+            text{
+                color:#FF4D41;
+                margin-right: 20rpx;
+            }
+        }
+    }
+    .btn_cancel{
+        width: 90%;
+        position: absolute;
+        bottom: 30rpx;
+        left: 40rpx;
+        height: 80rpx;
+        line-height: 80rpx;
+        background-color: #FF4D41;
+        color: #fff;
+        border-radius: 40rpx;
+    }
+}
+/* 黑色背景 */
+.blackbg{
+    position:fixed;
+    background-color: rgba(0, 0, 0, .14);
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

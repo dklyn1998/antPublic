@@ -1,0 +1,20 @@
+<image src="../../../images/gongnue/detail/backimg.png" class='bgimg' mode='widthFix'/>
+<view class='main'>
+    <text class='top_title'>动物造型LOGO设计</text>
+    <view class='title_msg'>
+        <view class='leftmsg'>
+        <image src="../../../images/index/2.jpg" />
+        <view>
+            <text class='user_name'>设计界的菜鸟</text>
+            <text class='user_time'>9月23日 9:45</text>
+        </view>
+        </view>
+        <view class='rightmsg'>
+            <text class='watch'>浏览 125</text>
+            <image class='zan'src="../../../images/index/zan1.png" />
+            <text class='mar_fix'>222</text>
+        </view>
+    </view>
+    <text class='msgbox'>以动物作为象征的主题是一个非常古老的标志题材。早在远古时期，人们就把动物作为图腾崇拜的标志。当时的人们相信每个氏族都与某种动物、植物或无生物有着特殊关系。事实上，人类对动物的崇拜一直没有停止，即使在高度发达的今天，我们仍可看到以动物造型作为企业或组织的标志，在商品中作为产品的商标。</text>
+</view>
+  

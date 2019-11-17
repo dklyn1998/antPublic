@@ -1,0 +1,193 @@
+
+page{
+    background-color: #F9F9F9;
+}
+/* .tabs{} */
+.tabs_title{
+    display:flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 60rpx;
+}
+.title_item{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #333333;
+    font-size: 28rpx;
+}
+.active{
+    color:#FF7152;
+    border-bottom: 5rpx solid #FF3534;
+}
+/* 全部订单信息 */
+
+.main_cart{
+    margin-top: 30rpx;
+}
+/* 总体的样式 */
+.goods_info{
+    background-color: #fff;
+    padding-top: 20rpx;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rpx;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20rpx;
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx 2rpx rgba(153, 153, 153, .27);
+    .dingdan_num{
+        display: flex;
+        font-size: 24rpx;
+        justify-content: space-between;
+        margin-right: 20rpx;
+        margin-bottom: 20rpx;
+        text{
+            &:nth-of-type(1){
+                color: #8D8D8D;
+            }
+            &:nth-of-type(2){
+                color:#00CCCC ;
+            }
+        }
+    }
+    .good_info_style{
+        display: flex;
+    }
+    .sure_left{
+        image{
+            width: 170rpx;
+            height: 170rpx;
+            border-radius: 10rpx;
+            margin-right: 30rpx;
+        }
+    }
+    .youhuiquan{
+        font-size: 28rpx;
+        color: #999999;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 20rpx;
+        image{
+            width: 15rpx;
+            height: 30rpx;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_name{
+        display: flex;
+        align-items: center;
+        text{
+            font-size: 28rpx;
+            color: #333333;
+        }
+        image{
+            margin-left: 10rpx;
+            &:nth-of-type(1){
+                width: 30rpx;
+                height: 23rpx;
+            }
+            &:nth-of-type(2){
+                width: 24rpx;
+                height: 24rpx;
+            }
+        }
+        .good_num{
+            margin-left: 150rpx;
+            font-size: 28rpx;
+            color: #999999;
+        }
+    }
+    
+    .tag_zan{
+        margin-top: 20rpx;
+        display: flex;
+        justify-content: space-between;
+        .tag{
+            font-size: 22rpx;
+            color: #999999;
+            text{
+                margin-right: 10rpx;
+                padding:5rpx;
+                border: 1rpx solid #999999;
+                border-radius: 4rpx;
+            }
+        }
+        
+    }
+    .prebook{
+        margin-top: 15rpx;
+        display: block;
+        font-size: 22rpx;
+        color: #999999;
+    }
+    .total_money{
+        margin-top: 30rpx;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20rpx;
+        align-items: center;
+        .total_all{
+            font-size: 24rpx;
+            text{
+                color: #999999;
+                &:nth-of-type(2){
+                    color: #FF7152;
+                }
+            }
+        }
+        .del,.pay_for{
+            text-align: center;
+            font-size: 24rpx;
+            color: #999999;
+            border: 1rpx solid #999999;
+            padding:10rpx;
+            border-radius: 4rpx;
+            width: 130rpx;
+        }
+        .pay_for{
+            border: none;
+            background-color: #FF4D41;
+            color: #fff;
+        }
+    }
+    
+}
+
+/* 样式抽离星星和火花 */
+.money_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .usless_icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        image{
+            width: 22rpx;
+            height: 22rpx;
+        }
+        .fire{
+            width: 15rpx;
+            height: 20rpx;
+            margin-left: 10rpx;
+        }
+        .hot{
+            font-size: 14rpx;
+            color: #FF4D41;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_money{
+        display: block;
+        font-size: 28rpx;
+        margin-left: 200rpx;
+        color: #FF4D41;
+    }
+}
+
+

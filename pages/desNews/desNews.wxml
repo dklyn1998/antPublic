@@ -1,0 +1,28 @@
+<view class='main'>
+    <image src="../../images/desNews/7.jpg" />
+    <!-- 遮罩层-->
+    <view class='zhezhao'></view>
+    <!--文字信息-->
+    <text class='top_text'>国外优秀的网页界面设计、移动端界面设计趋势 </text>
+    <view class='bottom_text'>
+        <text>2019.01.02</text>
+        <view class='liulan'>
+            <image src="../../images/desNews/liulan.png" />
+            <text>1002</text>
+        </view>
+    </view>
+</view>
+<view class='main'>
+    <image src="../../images/desNews/7.jpg" />
+    <!-- 遮罩层-->
+    <view class='zhezhao'></view>
+    <!--文字信息-->
+    <text class='top_text'>国外优秀的网页界面设计、移动端界面设计趋势 </text>
+    <view class='bottom_text'>
+        <text>2019.01.02</text>
+        <view class='liulan'>
+            <image src="../../images/desNews/liulan.png" />
+            <text>1002</text>
+        </view>
+    </view>
+</view>

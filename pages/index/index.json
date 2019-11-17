@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tabs":"../tabbar/tabbar",
+    "serach": "../tabbar/serach/serach",
+    "logodis": "../tabbar/logodis/logodis"
+  }
+}

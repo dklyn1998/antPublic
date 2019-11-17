@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/user/myOrder/orderDetail/orderDetail",
+    "pages/index/detail/suredetail/shuredetail",
+    "pages/index/index",
+    "pages/user/myOrder/myOrder",
+    "pages/user/receipt/receipt",
+    "pages/shoppingCar/shoppingCar",
+    "pages/user/feedback/feedback",
+    "pages/user/user",
+    "pages/anliDetail/anliDetail",
+    "pages/desNews/detail/detail",
+    "pages/index/detail/detail",
+    "pages/desNews/desNews",
+    "pages/taocanBasic/taocanBasic",
+    "pages/gongnue/gongnue",
+    "pages/gongnue/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧蚁",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF3A37",
+    "list": [
+      {
+        "iconPath": "images/index/index2.png",
+        "selectedIconPath": "images/index/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页 "
+      },
+      {
+        "iconPath": "images/index/gongnue.png",
+        "selectedIconPath": "images/index/gongnue2.png",
+        "pagePath": "pages/gongnue/gongnue",
+        "text": "攻略"
+      },
+      {
+        "iconPath": "images/index/mayi.png",
+        "selectedIconPath": "images/index/mayi.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "images/index/gouwuche.png",
+        "selectedIconPath": "images/index/gouwuche2.jpg",
+        "pagePath": "pages/shoppingCar/shoppingCar",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "images/index/gerenzhongxin.png",
+        "selectedIconPath": "images/user/wode.png",
+        "pagePath": "pages/user/user",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

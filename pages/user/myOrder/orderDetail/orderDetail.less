@@ -1,0 +1,297 @@
+page{
+    background-color: #F9F9F9;
+}
+/* 中间信息部分 */
+.goods_info{
+    background-color: #fff;
+    padding-top: 20rpx;
+    display: flex;
+    padding-left: 20rpx;
+    .sure_left{
+        image{
+            width: 250rpx;
+            height: 250rpx;
+            border-radius: 10rpx;
+            margin-right: 30rpx;
+        }
+    }
+    .sure_right{
+        flex: 3;
+    }
+    .youhuiquan{
+        font-size: 28rpx;
+        color: #999999;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 20rpx;
+        image{
+            width: 15rpx;
+            height: 30rpx;
+            margin-left: 10rpx;
+        }
+    }
+    .goods_name{
+        display: flex;
+        align-items: center;
+        text{
+            font-size: 28rpx;
+            color: #333333;
+        }
+        image{
+            margin-left: 10rpx;
+            &:nth-of-type(1){
+                width: 30rpx;
+                height: 23rpx;
+            }
+            &:nth-of-type(2){
+                width: 24rpx;
+                height: 24rpx;
+            }
+        }
+    }
+    .money_icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .usless_icon{
+            image{
+                width: 22rpx;
+                height: 22rpx;
+                vertical-align:middle;
+            }
+            .fire{
+                width: 15rpx;
+                height: 20rpx;
+                margin-left: 10rpx;
+            }
+            text{
+                font-size: 14rpx;
+                color: #FF4D41;
+                margin-left: 10rpx;
+            }
+        }
+        .goods_money{
+            margin-right: 20rpx;
+            .g_money{
+                color: #FF4D41;
+                font-size: 36rpx;
+            }
+            .cn_qi{
+                color: #999999;
+                font-size: 22rpx;
+            }
+        }
+    }
+    .tag_zan{
+        margin-top: 20rpx;
+        display: flex;
+        justify-content: space-between;
+        .tag{
+            font-size: 22rpx;
+            color: #999999;
+            text{
+                margin-right: 10rpx;
+                padding:5rpx;
+                border: 1rpx solid #999999;
+                border-radius: 4rpx;
+            }
+        }
+        
+    }
+    .money_area_status{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 10rpx;
+        
+        .money_area{
+            margin-top: 20rpx;
+            display: block;
+            color: #FF4D41;
+            font-size: 28rpx;
+        }
+        text{
+        &:nth-of-type(2){
+            color: #00CCCC;
+            font-size: 24rpx;
+        }
+    }
+    }
+    
+    .people_area{
+        font-size: 22rpx;
+        color: #999999;
+    }
+    
+}
+/* 用户选择信息 */
+/* 购买数量 */
+.pay_num{
+    margin-top: 10rpx;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+}
+/* 参数规格 */
+.specs_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    .picker{
+        font-size: 24rpx;
+        color: #666666;
+    }
+    image{
+        width: 15rpx;
+        height: 28rpx;
+    }
+
+}
+
+/* 手机号码 */
+.phone_num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+}
+/* 订单总金额 */
+.total_money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+        &:nth-of-type(2){
+            color: #FF4D41;
+        }
+    }
+}
+/* 发票信息 */
+.fapiao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+}
+/* 发票具体内容 */
+.isfapiao{
+    padding: 20rpx 20rpx;
+    
+    .fapiap_contain{
+        display: flex;
+        justify-content: space-between;
+        height: 60rpx;
+        text,input{
+            font-size: 24rpx;
+            color: #666666;
+        }
+        input{
+            text-align: right;
+        }
+    }
+}
+
+/* 制作流程 */
+.liucheng{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rpx;
+    height: 80rpx ;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+    margin-bottom: 100rpx;
+    text{
+        color: #333333;
+        font-size: 28rpx;
+    }
+    image{
+        margin-left: 20rpx;
+        width: 19rpx;
+        height: 25rpx;
+    }
+}
+
+/* 底部信息*/
+.bottom_msg{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height:100rpx ;
+    align-items: center;
+    .connect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        image{
+            width: 40rpx;
+            height: 40rpx;
+        }
+        text{
+            font-size: 24rpx;
+            color: #FF4D41;
+        }
+    }
+    .del,.see_pic,.down_load{
+        font-size: 24rpx;
+        width: 160rpx;
+        height: 60rpx;
+        border:1rpx solid #BFBFBF;
+        text-align: center;
+        line-height: 60rpx;
+        border-radius: 4rpx;
+    }
+    .see_pic{
+        border-color: #FF4D41;
+        color: #FF4D41;
+    }
+    .down_load{
+        border: none;
+        color: #fff;
+        background-color: #FF4D41;
+    }
+    
+}

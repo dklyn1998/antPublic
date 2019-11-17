@@ -1,0 +1,172 @@
+page {
+  background-color: #F9F9F9;
+}
+/* 顶部背景样式 */
+.colorBackground {
+  background-image: linear-gradient(to right, #FF9966, #FE5057);
+  width: 100%;
+  height: 380rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.colorBackground text {
+  display: block;
+  padding-top: 80rpx;
+  font-size: 28rpx;
+  margin-left: 30rpx;
+  color: #fff;
+}
+/* 用户信息部分 */
+.top_user_msg {
+  margin-top: 100rpx;
+  position: relative;
+  z-index: 5;
+  /* 等级部分 */
+}
+.top_user_msg .user_msg_twocode {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* 二维码区域 */
+}
+.top_user_msg .user_msg_twocode .user_msg_title {
+  display: flex;
+  align-items: center;
+  /* 头像信息调整 */
+  /* 用户名和等级 */
+}
+.top_user_msg .user_msg_twocode .user_msg_title .user_head {
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 50%;
+  border: 1rpx solid #fff;
+  background-color: #D8D8D8;
+}
+.top_user_msg .user_msg_twocode .user_msg_title .user_head image {
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 50%;
+}
+.top_user_msg .user_msg_twocode .user_msg_title .user_name {
+  margin-left: 30rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top_user_msg .user_msg_twocode .user_msg_title .user_name text:nth-of-type(1) {
+  font-size: 28rpx;
+}
+.top_user_msg .user_msg_twocode .user_msg_title .user_name text:nth-of-type(2) {
+  margin-top: 10rpx;
+  display: block;
+  font-size: 22rpx;
+  width: 120rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  line-height: 40rpx;
+}
+.top_user_msg .user_msg_twocode .two_code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top_user_msg .user_msg_twocode .two_code image {
+  height: 110rpx;
+  width: 110rpx;
+}
+.top_user_msg .user_msg_twocode .two_code text {
+  margin-top: 10rpx;
+  color: #fff;
+  font-size: 20rpx;
+}
+.top_user_msg .rank_progress {
+  width: 85%;
+  margin: 30rpx auto;
+}
+.top_user_msg .rank_progress .rank_msg {
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+/* 订单状态显示 */
+.nav_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 125rpx;
+  position: absolute;
+  top: 370rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  z-index: 8;
+  margin-left: 7.5%;
+  box-shadow: 0 0 13rpx 5rpx rgba(255, 102, 102, 0.1);
+}
+.nav_bar page {
+  background-color: #F9F9F9;
+}
+.nav_bar .goods_status {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* 图片处理 */
+  /* 字体处理 */
+}
+.nav_bar .goods_status image:nth-child(1) {
+  width: 47rpx;
+}
+.nav_bar .goods_status image:nth-child(4) {
+  width: 35rpx;
+}
+.nav_bar .goods_status image:nth-child(2) {
+  width: 44rpx;
+}
+.nav_bar .goods_status image:nth-child(3) {
+  width: 39rpx;
+}
+.nav_bar .goods_status text {
+  margin-top: 20rpx;
+  display: block;
+  font-size: 20rpx;
+  color: #737373 ;
+}
+/* 下方软件信息 */
+.detail_msg {
+  margin-top: 190rpx;
+}
+.detail_msg .nav_msg {
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail_msg .nav_msg .detail_left {
+  display: flex;
+  align-items: center;
+}
+.detail_msg .nav_msg .detail_left image {
+  width: 92rpx;
+  height: 89rpx;
+}
+.detail_msg .nav_msg .detail_left text {
+  color: #333333;
+  font-size: 28rpx;
+}
+.detail_msg .nav_msg .next_img {
+  width: 20rpx;
+  height: 35rpx;
+  margin-left: 20rpx;
+}

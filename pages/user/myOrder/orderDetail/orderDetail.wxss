@@ -1,0 +1,283 @@
+page {
+  background-color: #F9F9F9;
+}
+/* 中间信息部分 */
+.goods_info {
+  background-color: #fff;
+  padding-top: 20rpx;
+  display: flex;
+  padding-left: 20rpx;
+}
+.goods_info .sure_left image {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+.goods_info .sure_right {
+  flex: 3;
+}
+.goods_info .youhuiquan {
+  font-size: 28rpx;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20rpx;
+}
+.goods_info .youhuiquan image {
+  width: 15rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+.goods_info .goods_name {
+  display: flex;
+  align-items: center;
+}
+.goods_info .goods_name text {
+  font-size: 28rpx;
+  color: #333333;
+}
+.goods_info .goods_name image {
+  margin-left: 10rpx;
+}
+.goods_info .goods_name image:nth-of-type(1) {
+  width: 30rpx;
+  height: 23rpx;
+}
+.goods_info .goods_name image:nth-of-type(2) {
+  width: 24rpx;
+  height: 24rpx;
+}
+.goods_info .money_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goods_info .money_icon .usless_icon image {
+  width: 22rpx;
+  height: 22rpx;
+  vertical-align: middle;
+}
+.goods_info .money_icon .usless_icon .fire {
+  width: 15rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+}
+.goods_info .money_icon .usless_icon text {
+  font-size: 14rpx;
+  color: #FF4D41;
+  margin-left: 10rpx;
+}
+.goods_info .money_icon .goods_money {
+  margin-right: 20rpx;
+}
+.goods_info .money_icon .goods_money .g_money {
+  color: #FF4D41;
+  font-size: 36rpx;
+}
+.goods_info .money_icon .goods_money .cn_qi {
+  color: #999999;
+  font-size: 22rpx;
+}
+.goods_info .tag_zan {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.goods_info .tag_zan .tag {
+  font-size: 22rpx;
+  color: #999999;
+}
+.goods_info .tag_zan .tag text {
+  margin-right: 10rpx;
+  padding: 5rpx;
+  border: 1rpx solid #999999;
+  border-radius: 4rpx;
+}
+.goods_info .money_area_status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 10rpx;
+}
+.goods_info .money_area_status .money_area {
+  margin-top: 20rpx;
+  display: block;
+  color: #FF4D41;
+  font-size: 28rpx;
+}
+.goods_info .money_area_status text:nth-of-type(2) {
+  color: #00CCCC;
+  font-size: 24rpx;
+}
+.goods_info .people_area {
+  font-size: 22rpx;
+  color: #999999;
+}
+/* 用户选择信息 */
+/* 购买数量 */
+.pay_num {
+  margin-top: 10rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #eee;
+}
+.pay_num text {
+  color: #333333;
+  font-size: 28rpx;
+}
+/* 参数规格 */
+.specs_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+.specs_info text {
+  color: #333333;
+  font-size: 28rpx;
+}
+.specs_info .picker {
+  font-size: 24rpx;
+  color: #666666;
+}
+.specs_info image {
+  width: 15rpx;
+  height: 28rpx;
+}
+/* 手机号码 */
+.phone_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+.phone_num text {
+  color: #333333;
+  font-size: 28rpx;
+}
+/* 订单总金额 */
+.total_money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+.total_money text {
+  color: #333333;
+  font-size: 28rpx;
+}
+.total_money text:nth-of-type(2) {
+  color: #FF4D41;
+}
+/* 发票信息 */
+.fapiao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+.fapiao text {
+  color: #333333;
+  font-size: 28rpx;
+}
+/* 发票具体内容 */
+.isfapiao {
+  padding: 20rpx 20rpx;
+}
+.isfapiao .fapiap_contain {
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+}
+.isfapiao .fapiap_contain text,
+.isfapiao .fapiap_contain input {
+  font-size: 24rpx;
+  color: #666666;
+}
+.isfapiao .fapiap_contain input {
+  text-align: right;
+}
+/* 制作流程 */
+.liucheng {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  height: 80rpx ;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 100rpx;
+}
+.liucheng text {
+  color: #333333;
+  font-size: 28rpx;
+}
+.liucheng image {
+  margin-left: 20rpx;
+  width: 19rpx;
+  height: 25rpx;
+}
+/* 底部信息*/
+.bottom_msg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100rpx ;
+  align-items: center;
+}
+.bottom_msg .connect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom_msg .connect image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.bottom_msg .connect text {
+  font-size: 24rpx;
+  color: #FF4D41;
+}
+.bottom_msg .del,
+.bottom_msg .see_pic,
+.bottom_msg .down_load {
+  font-size: 24rpx;
+  width: 160rpx;
+  height: 60rpx;
+  border: 1rpx solid #BFBFBF;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 4rpx;
+}
+.bottom_msg .see_pic {
+  border-color: #FF4D41;
+  color: #FF4D41;
+}
+.bottom_msg .down_load {
+  border: none;
+  color: #fff;
+  background-color: #FF4D41;
+}

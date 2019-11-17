@@ -1,0 +1,42 @@
+.main {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.main image {
+  width: 100%;
+  height: 290rpx;
+}
+.main .zhezhao {
+  background-color: rgba(255, 132, 0, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 290rpx;
+}
+.main .top_text {
+  color: #ffffff;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 32rpx;
+  width: 450rpx;
+}
+.main .bottom_text {
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 24rpx;
+}
+.main .bottom_text image {
+  margin-left: 400rpx;
+  width: 33rpx;
+  height: 20rpx;
+}
+.main .bottom_text text {
+  margin-left: 20rpx;
+}

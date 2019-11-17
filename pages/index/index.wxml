@@ -1,0 +1,81 @@
+<!-- 顶部搜索栏区域-->
+<serach></serach>
+  <!-- 中间图标区域使用swiper组件-->
+<logodis></logodis>
+      <!--公告栏-->
+      <view class='notice'>
+      <!---左边公告图标-->
+         <view class='leftpic'>
+            <image src="../../images/index/gonggao.png" />
+            <text>公告</text>
+         </view>
+         <!---右边swiper自动滚动-->
+         <swiper class="righttext" autoplay='true' circular='true' vertical='true'>
+            <swiper-item class="textjob" >
+            <view>
+               <text>通知</text>
+               <text>1333***333用户购买logo一件...</text>
+            </view>
+            <view>
+               <text>恭喜</text><text>1333***333升级为 VIP 2级...</text>
+            </view>
+            </swiper-item>
+            <swiper-item class="textjob" >
+            <view>
+               <text>通知</text>
+               <text>1333***333用户购买logo一件...</text>
+            </view>
+            <view>
+               <text>恭喜</text><text>1333***333升级为 VIP 2级...</text>
+            </view>
+            </swiper-item>
+         </swiper>
+      </view>
+      <!-- 广告logo部分-->
+   <image src="../../images/index/adlogo.png"  class='adlogo' mode='widthFix'/>
+   <!-- tabvar栏目的设置-->
+   <tabs></tabs>
+   <!-- 图片区域设置-->
+   <view class='pic_area'>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix'src="../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_05.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix' src="../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_05.png"mode='widthFix' />
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix' src="../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea' >
+            <image class='borderfix'src="../../images/index/2.jpg"  />
+            <text>设计界的菜鸟</text>
+            <image class='zan'src="../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      
+   </view>

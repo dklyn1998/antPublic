@@ -1,0 +1,40 @@
+/* 头部搜索栏区域 */
+.header{
+    width: 100%;
+    height:110rpx;
+    padding: 0  30rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-botton:30rpx
+}
+.header>image{
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+}
+.header>.findother{
+    width: 95%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.header>.findother>image{
+    height: 45rpx;
+    width: 45rpx;
+    position: absolute;
+    left: 20%;
+    top: 28%;
+}
+.header>.findother>input{
+    margin-left: 30rpx;
+    width: 62%;
+    height: 60rpx;
+    /* background-color: red; */
+    box-shadow: 0rpx 0rpx 18rpx 18rpx #f7f7f7;
+    border-radius: 30rpx;
+    padding-left: 25%;
+    background-color:#fff;
+}

@@ -1,0 +1,18 @@
+<!--头部banner-->
+<image src="../../../images/desNews/7.jpg"  class='top_banner' mode='widthFix'/>
+<!--中间信息部分-->
+<view class='top_msg'>
+    <text class='title_msg"'>国外优秀的网页界面设计、移动端界面 设计趋势</text>
+    <!--下面的时间和查看信息-->
+    <view class='time_see'>
+        <text>2019.10.21</text> 
+        <view>
+            <image src="../../../images/desNews/liulan2.png"/>
+            <text>1002</text>   
+        </view>
+    </view>
+</view>
+<!-- 下方内容信息-->
+<view class='cotain_text'>
+    <text>春天来了，但是不确定是不是一个好的春天，确实学习UI设计的人很多，但是方向基本都是应用UI不管是应用UI还是游戏UI至少都是春天来了，但是不确定是不是一个好的春天，确实学习UI设计的人很多，但是方向基本都是应用UI不管是应用UI还是游戏UI至少都是春天来了，但是不确定是不是一个好的春天，确实学习UI设计的人很多，但是方向基本都是应用UI不管是应用UI还是游戏UI至少都是</text>
+</view>

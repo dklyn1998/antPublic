@@ -1,0 +1,160 @@
+<view class='goods_info'>
+    <view class='sure_left'>
+        <image src="../../../../images/index/detail/bareimg.png" />
+    </view>
+    <view class='sure_right'>
+        <view class='goods_name'>
+            <text>企业画册设计</text>
+            <image src="../../../../images/index/detail/youhuijuan@2x.png" />
+            <image src="../../../../images/index/detail/active.png" />
+        </view>
+        <view class='money_icon'>
+            <view class='usless_icon'>
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail/star.png" />
+                <image src="../../../../images/index/detail//huo1@2x.png" class='fire'/>
+                <text>HOT</text>
+            </view>
+            <!--<view class="goods_money">
+                <text class='g_money'>￥99</text>
+                <text class='cn_qi'>起</text>
+            </view>-->
+        </view>
+        <view class='tag_zan'>
+            <view class='tag'>
+                <text>优秀设计师</text>
+                <text>资深设计师</text>
+            </view>
+            
+        </view>
+        <text class='money_area'>￥99</text>
+        <text class='people_area'> 13分钟前有人预定</text>
+    </view>
+    
+</view>
+<view class='pay_num'>
+    <text>购买数量</text>
+    <view class='button_ctrl'>
+        <button bindtap='numLess' hover-class="bg_red">-</button>
+        <input value='{{kindNum}}' />
+        <button bindtap="numAdd" hover-class="bg_red">+</button>
+    </view>
+</view>
+<view class='choose_info'>
+    <view class='specs_info'>
+    <text>规格参数</text>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+        <view class="picker">
+        {{array[index]}}
+        </view>
+    </picker>
+    <image src="../../../../images/index/detail/next.png" />
+      </view>
+</view>
+
+<view class='phone_num'>
+    <text>手机号码</text>
+    <input  placeholder="(必填）输入手机号"  />
+</view>
+<!-- 优惠券领取-->
+<view class='youhuiquan' bindtap='youhuiquan'>
+    <text>优惠券</text>
+    <view class='youhui_bind'>
+        <text>-￥50.00</text>
+        <image src="../../../../images/index/detail/next.png" />
+    </view>
+</view>
+<!--开发票-->
+<view class='fapiao'>
+    <text>是否需要开发票</text>
+    <switch checked="{{switch1Checked}}" bindchange="switch1Change" color='#FF4D41'/>
+</view>
+<!-- 开发票内容-->
+<view class='isfapiao' wx:if="{{switch1Checked}}">
+    <view class='fapiap_contain'>
+        <text>公司名称</text>
+        <input placeholder='请输入公司名称'></input>
+    </view>
+    <view class='fapiap_contain'>
+        <text>纳税人识别号</text>
+        <input placeholder='请输入纳税人识别号'></input>
+    </view>
+    <view class='fapiap_contain'>
+        <text>公司地址</text>
+        <input placeholder='请输入公司地址'></input>
+    </view>
+    <view class='fapiap_contain'>
+        <text>联系电话</text>
+        <input placeholder='请输入联系电话'></input>
+    </view>
+    <view class='fapiap_contain'>
+        <text>开户行</text>
+        <input placeholder='请输入开户行'></input>
+    </view>
+    <view class='fapiap_contain'>
+        <text>账号</text>
+        <input placeholder='请输入账号'></input>
+    </view>
+</view>
+<!--制作流程-->
+<view class='liucheng'>
+    <text>制作流程</text>
+    <image src="../../../../images/index/detail/next.png" />
+
+</view>
+<!-- 备注区域-->
+<view class='remark'>
+    <text>备注</text>
+    <textarea placeholder="请填写颜色需求，涉及元素等，或上传喜欢的样式图片" />
+    <image src="../../../../images/index/detail/picture.png" />
+    <text class='pictureto'>图片上传</text>
+</view>
+<!--底部提交订单-->
+<view class='submit_bottom'>
+    <view class='inner_msg'>
+        <view class='submit_top_mag'>
+            <text>合计</text>
+            <text>￥99.00</text>
+        </view>
+        <text>已使用优惠劵，节省50元</text>
+    </view>
+    <button class='submit_btn'>提交订单</button>
+</view>
+<!-- 优惠券点击出现部分-->
+<!--出现免责声明详细信息-->
+<view class='youhuiquan_detail' wx:if="{{isshow==1}}" >
+    <text class='youhuiquan_title'>优惠券详情</text>
+    <view class='detail_inner_box'>
+       <text>logo优惠劵</text>
+       <view class='youhuiquan_right'>
+           <text>-￥50.00</text>
+           <radio checked="{{flase}}" color="#FF4D41">
+           </radio>
+       </view>
+       
+    </view>
+     <view class='detail_inner_box'>
+       <text>logo优惠劵</text>
+       <view class='youhuiquan_right'>
+           <text>-￥50.00</text>
+           <radio checked="{{flase}}" color="#FF4D41">
+           </radio>
+       </view>
+    </view>
+     <view class='detail_inner_box'>
+       <text>不使用</text>
+       <view class='youhuiquan_right'>
+        
+           <radio checked="{{flase}}" color="#FF4D41">
+           </radio>
+       </view>
+    </view>
+    <button class='btn_cancel' bindtap="cancel">
+        完成
+    </button>
+</view>
+<!--黑色背景-->
+<view class='blackbg'  bindtap='cancel' wx:if="{{isshow!==0}}"></view>

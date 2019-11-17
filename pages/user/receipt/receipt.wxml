@@ -1,0 +1,81 @@
+<!--顶部tab选项栏-->
+<view class='tabs'>
+    <view class='tabs_title'>
+    <view 
+    wx:for="{{tabs}}"
+    wx:key="id"
+    class='title_item {{item.isActive?"active":""}}'
+    bindtap="handletap"
+    data-index="{{index}}"
+    >
+        {{item.name}}
+    </view>
+    </view>
+</view>
+<!--中间购物篮部分-->
+<view class='main_cart'>
+  <!--每个单独部分-->
+<view class='goods_info'>
+        <view class='sure_left'>
+            <image src="../../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+            <view class='goods_name'>
+                <text>企业画册设计</text>
+                <view class='fapiao_btn'>
+                    开发票
+                </view>
+            </view>
+            <view class='good_money'>
+                <text>金额</text>
+                <text>¥1688.00</text>
+            </view>
+            <view class='logo_data'>
+                <text>LOGO设计</text>
+                <text>2019.09.11</text>
+            </view>
+        </view>
+</view>
+<view class='goods_info'>
+        <view class='sure_left'>
+            <image src="../../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+            <view class='goods_name'>
+                <text>企业画册设计</text>
+                <view class='fapiao_btn'>
+                    开发票
+                </view>
+            </view>
+            <view class='good_money'>
+                <text>金额</text>
+                <text>¥1688.00</text>
+            </view>
+            <view class='logo_data'>
+                <text>LOGO设计</text>
+                <text>2019.09.11</text>
+            </view>
+        </view>
+</view>
+<view class='goods_info'>
+        <view class='sure_left'>
+            <image src="../../../images/index/detail/bareimg.png" />
+        </view>
+        <view class='sure_right'>
+            <view class='goods_name'>
+                <text>企业画册设计</text>
+                <view class='fapiao_btn'>
+                    开发票
+                </view>
+            </view>
+            <view class='good_money'>
+                <text>金额</text>
+                <text>¥1688.00</text>
+            </view>
+            <view class='logo_data'>
+                <text>LOGO设计</text>
+                <text>2019.09.11</text>
+            </view>
+        </view>
+</view>
+</view>

@@ -1,0 +1,93 @@
+page {
+  background-color: #F9F9F9;
+}
+/* .tabs{} */
+.tabs_title {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 60rpx;
+}
+.title_item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #333333;
+  font-size: 28rpx;
+}
+.active {
+  color: #FF7152;
+  border-bottom: 5rpx solid #FF3534;
+}
+/* 全部订单信息 */
+.main_cart {
+  margin-top: 30rpx;
+}
+/* 总体的样式 */
+.goods_info {
+  background-color: #fff;
+  padding-top: 20rpx;
+  display: flex;
+  padding-left: 20rpx;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 0 20rpx 2rpx rgba(153, 153, 153, 0.27);
+}
+.goods_info .sure_left image {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  margin-right: 30rpx;
+}
+.goods_info .sure_right {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.goods_info .sure_right .goods_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+.goods_info .sure_right .goods_name text {
+  color: #333333;
+  display: block;
+}
+.goods_info .sure_right .goods_name .fapiao_btn {
+  width: 120rpx;
+  height: 50rpx;
+  color: #fff;
+  background-color: #FF4D41;
+  text-align: center;
+  line-height: 50rpx;
+  margin-left: 80rpx;
+  border-radius: 4rpx;
+}
+.goods_info .sure_right .good_money {
+  display: flex;
+  justify-items: flex-start;
+  margin-top: 20rpx;
+}
+.goods_info .sure_right .good_money text {
+  font-size: 28rpx;
+  color: #7F7F7F;
+}
+.goods_info .sure_right .good_money text:nth-of-type(2) {
+  color: #FF7152;
+  margin-left: 30rpx;
+}
+.goods_info .sure_right .logo_data {
+  margin-top: 50rpx;
+  padding-top: 20rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  border-top: 1rpx dashed #DCDCDC;
+  color: #848484;
+}

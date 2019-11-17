@@ -1,0 +1,7 @@
+<view class='header'>
+    <image src="../../../images/index/2.jpg" />
+    <view class='findother'>
+        <image src="../../../images/index/findicon.png" />
+        <input placeholder='请输入搜索内容'></input>
+    </view>
+</view>

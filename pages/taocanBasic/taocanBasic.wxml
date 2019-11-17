@@ -1,0 +1,18 @@
+<!--顶部区域-->
+<view class='tabs'>
+    <view class='tabs_title'>
+    <view 
+    wx:for="{{tabs2}}"
+    wx:key="id"
+    class='title_item {{item.isActive?"active":""}} '
+    bindtap="handletap"
+    data-index="{{index}}"
+    >
+        <view wx:if="{{item.id==1}}" class='hot'>
+            <text>推荐</text>
+        </view>
+        {{item.name}}
+    </view>
+    </view>
+</view>
+<image src="../../images/taocanBasic/allimg.png"  class='innerimg' mode='widthFix'/>
