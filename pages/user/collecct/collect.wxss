@@ -1,0 +1,52 @@
+/* 底部图片部分 */
+/* 顶部总宽度90% */
+.pic_area{
+    width: 95%;
+    margin: 20rpx auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: row wrap; */
+    column-count: 2;
+    column-gap: 20rpx;
+}
+.pic_area>.pic_display{
+    width: 100%;
+    margin-bottom: 30rpx;
+    box-shadow: 0 0 3rpx 3rpx rgba(0, 0, 0, .14);
+    /* break-inside: avoid; */
+    /* height: 500rpx; */
+    border-radius: 10rpx;
+
+}
+.pic_area>.pic_display:nth-child(2n-1){
+    margin-right: 20rpx;
+}
+.pic_area>.pic_display>image{
+    width: 100%;
+}
+.pic_area>.pic_display>text{
+    color: #333333;
+    font-size: 28rpx;
+    line-height: 28rpx;
+    padding-left: 10rpx;
+}
+.pic_area>.pic_display>.textarea{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20rpx 0 30rpx 0;
+}
+.pic_area>.pic_display>.textarea>image{ 
+    width: 36rpx;
+    height: 36rpx;
+}
+.pic_area>.pic_display>.textarea>.borderfix{
+    border-radius: 50%;
+}
+
+.pic_area>.pic_display>.textarea>text{
+    color: #333;
+    font-size: 24rpx;
+}

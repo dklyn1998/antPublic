@@ -1,0 +1,14 @@
+<view class='bag_box'>
+    <text>账户佣金将提现到微信</text>
+    <view class='money_input'>
+        ￥ <input placeholder="请输入金额" />
+    </view>
+    <view class='money_msg'>
+        <text>账户余额：￥8563.23</text>
+        <text>提现明细</text>
+    </view>
+</view>
+
+
+<!-- 底部按钮-->
+<button>提现到微信</button>

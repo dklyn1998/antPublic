@@ -1,0 +1,112 @@
+/* 顶部信息 */
+.top_banner{
+    width: 100%;
+    position: relative;
+    image{
+        width: 110%;
+        margin-left: -20rpx;
+    }
+    .topbg_msg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+        margin-left: 40rpx;
+        text{
+            font-size: 36rpx;    
+            &:nth-of-type(2){
+                font-size: 60rpx;
+                margin: 10rpx 0;
+            }
+            &:nth-of-type(3){
+                color: #FF4D41;
+                width: 150rpx;
+                height: 60rpx;
+                background-color: #F9F9F9;
+                text-align: center;
+                line-height: 60rpx;
+            }
+        }
+    }
+}
+
+
+/* 下方软件信息 */
+.detail_msg{
+    .nav_msg{
+        padding: 0 30rpx;
+        background-color: #fff;
+        margin-bottom: 10rpx;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .detail_left{
+            display: flex;
+            align-items: center;
+            image{
+                width: 92rpx;
+                height: 89rpx;
+            }
+            text{
+                color: #333333;
+                font-size: 28rpx;
+            }
+        }
+        .next_img{
+            width: 20rpx;
+            height: 35rpx;
+            margin-left: 20rpx;
+        }
+    }
+}
+/* 黑色背景 */
+.black_bg{
+    background-color: rgba(0, 0, 0, .14);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+/* 分销商的规则详情 */
+.rule{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 20rpx 20rpx 0 0;
+    text{
+        font-size: 28rpx;
+        display: block;
+        width: 90%;
+        color: #666666;
+        margin: 0 auto;
+        &:nth-of-type(1){
+            font-size: 48rpx;
+            text-align: center;
+            margin-bottom: 20rpx;
+            margin-top: 30rpx;
+        }
+        &:nth-of-type(2){
+            color: #333333;
+        }
+    }
+    button{
+        position: absolute;
+        left: 0;
+        bottom: 10rpx;
+        width: 90%;
+        height: 80rpx;
+        background-color: #FF4D41;
+        color: #fff;
+        border-radius: 40rpx;
+        margin-left: 5%;
+    }
+}

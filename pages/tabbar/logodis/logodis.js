@@ -18,6 +18,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    show:function(){
+      console.log('点击我啦')
+    }
   }
 })

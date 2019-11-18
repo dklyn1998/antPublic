@@ -168,7 +168,7 @@
     </view>
     <view class='btn_style'>
         <button>加入购物车</button>
-        <button ><text>券后预定</text>
+        <button bindtap="prebook"><text>券后预定</text>
         <text>券后￥128</text>
         </button>
     </view>

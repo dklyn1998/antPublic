@@ -99,7 +99,7 @@
     <view class='del'>
         删除订单
     </view>
-    <view class='see_pic'>
+    <view class='see_pic' bindtap="showPic">
         查看图片
     </view>
     <view class='down_load'>

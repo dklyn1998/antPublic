@@ -7,7 +7,12 @@ Page({
   data: {
   
   },
-
+  /* 跳转到广告页面 */
+  toAdMsg:function(){
+    wx.navigateTo({
+      url: '../taocanBasic/taocanBasic'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

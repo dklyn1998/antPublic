@@ -1,0 +1,172 @@
+page{
+    position: relative;
+    background-color: #F7F7F7;
+}
+.top_bg{
+    width: 110%;
+    margin-left: -20rpx;
+}
+.date_now{
+    position: absolute;
+    right: 30rpx;
+    top: 70rpx;
+    color: #ffffff;
+    font-size: 36rpx;
+}
+/* 一号经销商信息 */
+.boss_area{
+    position: relative;
+    z-index: 100;
+    width: 95%;
+    margin: 20rpx auto;
+    background-color: #ffffff;
+    border-radius: 20rpx;
+    height: 220rpx;
+    margin-top: -150rpx;
+    /* 总体定位设置 */
+    .msg_area{
+        position: absolute;
+        top: 5rpx;
+        left: 140rpx;
+        width: 77%;
+    }
+    /* 头像区域 */
+    .head_pic{
+        width:110rpx ;
+        height: 110rpx;
+        border-radius: 50%;
+        border: 10rpx solid #ffffff;
+        margin-top: -55rpx;
+    }
+    /* 姓名和奖章区域 */
+    .name_medal{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text{
+            color: #333333;
+            font-size: 28rpx;
+        }
+        image{
+            width: 88rpx;
+            margin-right:50rpx;
+        }
+    }
+    /* 团队业绩 */
+    .group_next{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        // margin-top: 20rpx;
+        text{
+            font-size: 24rpx;
+            color: #999999;
+        }
+        image{
+            width: 24rpx;
+            height: 41rpx;
+        }
+    }
+    /* 团队和钱 */
+    .money_people{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        text{
+            font-size: 36rpx;
+            color: #FF4D41;
+        }
+        .people_msg{
+            display: flex;
+            align-content: center;
+            image{
+                width: 80rpx;
+                height: 73rpx;
+            }
+            .detail_people_msg{
+                margin-right: 50rpx;
+                color: #999999;
+                font-size: 28rpx;
+                display: flex;
+                align-items: center;
+                text{
+                    font-size: 28rpx;
+                    color: #FF4D41;
+                    
+                }
+            }
+        }
+
+    }
+}
+/* 二号经销商区域 */
+.private_area{
+    width: 89%;
+    margin: 20rpx auto;
+    background-color: #ffffff;
+    height: 220rpx;
+    padding: 20rpx;
+    display: flex;
+    .head_pic{
+        width: 66rpx;
+        height: 66rpx;
+        border-radius: 50%;
+    }
+    .msg_area{
+        flex: 5;
+        margin-left: 50rpx;
+        /* 姓名和奖章区域 */
+    .name_medal{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text{
+            color: #333333;
+            font-size: 28rpx;
+        }
+        .group_people_show{
+            font-size: 24rpx;
+            color: #666666;
+            .group_num{
+                color: #FF4D41;
+                font-size: 24rpx;
+            }
+        }
+        image{
+            width: 88rpx;
+            margin-right:50rpx;
+        }
+    }
+    /* 团队业绩 */
+    .group_next{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        // margin-top: 20rpx;
+        text{
+            font-size: 24rpx;
+            color: #999999;
+        }
+        image{
+            width: 24rpx;
+            height: 41rpx;
+        }
+    }
+    /* 团队和钱 */
+    .money_people{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        text{
+            font-size: 36rpx;
+            color: #FF4D41;
+            &:nth-of-type(2){
+                margin-right: 25%;
+            }
+        }
+       
+
+    }
+    }
+
+}

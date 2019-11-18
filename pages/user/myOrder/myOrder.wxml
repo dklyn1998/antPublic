@@ -59,7 +59,7 @@
                 <text>￥69.00</text>
             </view>
             <view class='del'>删除订单</view>
-            <view class='pay_for'>去付款</view>
+            <navigator class='pay_for' url='./orderDetail/orderDetail'>去付款</navigator>
         </view>
     </view>
 

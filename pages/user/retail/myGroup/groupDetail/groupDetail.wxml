@@ -1,0 +1,42 @@
+<image src="../../../../../images/user/mygroup/backbg.png" class='top_bg' mode='widthFix' />
+<text class='date_now'>3月 2019年></text>
+<!-- 下方信息-->
+<view class='boss_area'>
+    <image src="../../../../../images/index/2.jpg" class='head_pic' />
+    <view class='msg_area'>
+        <view class='name_medal'>
+        <text>王小二</text>
+        <image src="../../../../../images/user/mygroup/womengengdongni.png" mode="widthFix" />
+    </view>
+    <view class='group_next'>
+        <text>团队总业绩（元）</text>
+        <image src="../../../../../images/user/mygroup/next.png" />
+    </view>
+    <view class='money_people'>
+        <text>29988.99</text>
+        <view class='people_msg'>
+            <image src="../../../../../images/user/mygroup/tuandui.png" />
+            <view class='detail_people_msg'>
+                团队:<text>18</text>人
+            </view>
+        </view>
+    </view>
+    </view>
+</view>
+<!---具体详细信息-->
+<view class='id_time_people'>
+    <!--id区域-->
+    <view class='base_style'>
+        <text>ID</text>
+        <text>000001</text>
+    </view>
+    <!-- 注册时间-->
+    <view class='base_style'>
+        <text>注册时间</text>
+        <text>2019-07-01</text>
+    </view>
+    <view class='base_style'>
+        <text>推广人数</text>
+        <text>0人</text>
+    </view>
+</view>

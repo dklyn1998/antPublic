@@ -1,0 +1,44 @@
+<!-- 图片区域设置-->
+   <view class='pic_area'>
+      <view class='pic_display'>
+         <image src="../../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix'src="../../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../../images/index/testant_05.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix' src="../../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../../images/index/testant_05.png"mode='widthFix' />
+            <text>古典风格 画册设计</text>
+            <view class='textarea'>
+            <image class='borderfix' src="../../../images/index/2.jpg" />
+            <text>设计界的菜鸟</text>
+            <image src="../../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      <view class='pic_display'>
+         <image src="../../../images/index/testant_03.png" mode='widthFix'/>
+            <text>古典风格 画册设计</text>
+            <view class='textarea' >
+            <image class='borderfix'src="../../../images/index/2.jpg"  />
+            <text>设计界的菜鸟</text>
+            <image class='zan'src="../../../images/index/zan1.png" />
+            <text>222</text>
+         </view>
+      </view>
+      
+   </view>

@@ -1,0 +1,29 @@
+<!-- 开发票内容-->
+<view class='isfapiao'>
+    <view class='fapiap_contain'>
+        <text>公司名称</text>
+        <text>成都市中浩天际科技有限公司</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>纳税人识别号</text>
+       <text>11111111111122222233445</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>公司地址</text>
+        <text>成都市高新区365号2栋702</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>联系电话</text>
+        <text>13333333333</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>开户行</text>
+        <text>成都市高新区</text>
+    </view>
+    <view class='fapiap_contain'>
+        <text>账号</text>
+        <text>11111111111122222233445</text>
+    </view>
+</view>
+ <!--底部提交按钮-->
+ <button class='submit'>提交</button>

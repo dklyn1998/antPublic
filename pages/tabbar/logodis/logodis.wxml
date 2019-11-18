@@ -1,71 +1,71 @@
 <swiper indicator-dots='true' indicator-active-color='#FF3B37' circular='true'class='swiper1'>
   <swiper-item class='swiperinner'>
-      <navigater class='innerbox'>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/logodis.png" />
           <text>LOGO 设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/brindv.png" />
           <text>品牌VI设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/picturedis.png" />
           <text>画册设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/culture.png" />
           <text>企业文化墙</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/bagdis.png" />
           <text>包装设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image class='imagelogo'src="../../../images/index/birindall.png" />
           <text>品牌全案</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/specialdis.png" />
           <text>专卖店设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox' url='../index/detail/detail'>
           <image src="../../../images/index/more.png" />
           <text>更多</text> 
-      </navigater>
+      </navigator>
         
   </swiper-item>
   <swiper-item class='swiperinner'>
-      <navigater class='innerbox'>
+      <navigator class='innerbox'>
           <image class='imagelogo'src="../../../images/index/logodis.png" />
           <text>LOGO 设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/logodis.png" />
           <text>LOGO 设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/brindv.png" />
           <text>品牌VI设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/picturedis.png" />
           <text>画册设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/culture.png" />
           <text>企业文化墙</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/bagdis.png" />
           <text>包装设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/specialdis.png" />
           <text>专卖店设计</text> 
-      </navigater>
-      <navigater class='innerbox'>
+      </navigator>
+      <navigator class='innerbox'>
           <image src="../../../images/index/more.png" />
           <text>更多</text> 
-      </navigater>
+      </navigator>
   </swiper-item>
 </swiper>

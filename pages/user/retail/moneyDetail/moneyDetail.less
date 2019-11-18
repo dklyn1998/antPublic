@@ -1,0 +1,55 @@
+
+page{
+    background-color: #F8F8F8;
+}
+    /* 顶部信息栏 */
+.top_msg{
+    padding: 20rpx 60rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+    font-size: 24rpx;
+}
+/* 下方提现信息 */
+.detail_msg{
+    width: 100%;
+    background-color: #fff;
+    padding:  0 30rpx;
+    .detail_msg_inner{
+        display: flex;
+        height: 145rpx;
+        align-items: center;
+        border-bottom: 1rpx solid #DADADA;
+        image{
+            width: 72rpx;
+            margin-right: 30rpx;
+        }
+    }
+    .detail_msg_inner_name{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        text{
+            font-size: 36rpx;
+            color: #333333;
+        }
+        .detail_msg_date_money{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text{
+                display: block;
+                &:nth-of-type(1){
+                    font-size: 28rpx;
+                    color: #999999 ;
+                }
+                &:nth-of-type(2){
+                    font-size: 34rpx;
+                    color: #EA623A ;
+                }
+            }
+        }
+    }
+}

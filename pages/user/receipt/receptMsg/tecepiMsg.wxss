@@ -1,0 +1,27 @@
+/* 发票具体内容 */
+.isfapiao {
+  padding: 20rpx 20rpx;
+}
+.isfapiao .fapiap_contain {
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+}
+.isfapiao .fapiap_contain text,
+.isfapiao .fapiap_contain input {
+  font-size: 24rpx;
+  color: #666666;
+}
+.isfapiao .fapiap_contain input {
+  text-align: right;
+}
+.submit {
+  width: 90%;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: #ffffff;
+  background-color: #FF4D41;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 150rpx;
+}

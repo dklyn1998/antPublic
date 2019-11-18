@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    transForm:0,//tab选项卡的值
     tabs:[
       {
       id:0,
@@ -16,19 +17,21 @@ Page({
       name:'未开发票',
       isActive:false
     }
-  ]
+  ]//tab选项卡的内容
   },
   handletap(e){
-    console.log(e)
+    console.log(e.target.dataset.index)
     // 获取索引
     const {index}=e.currentTarget.dataset
     let {tabs}=this.data
   // 循环数组
   tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false)
   this.setData({
-    tabs
+    tabs,
+    transForm:e.target.dataset.index
   })
   },
+  
   /**
    * 生命周期函数--监听页面加载
    */

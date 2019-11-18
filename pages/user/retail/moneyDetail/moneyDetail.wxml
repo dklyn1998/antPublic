@@ -1,0 +1,27 @@
+<view class='top_msg'>
+    <text>今日佣金收益 ¥100.00</text>
+    <text>提现到钱包 ¥0 .00 </text>
+</view>
+<!-- 下方提现的信息-->
+<view class='detail_msg'>
+    <view class='detail_msg_inner'>
+        <image src="../../../../images/user/retail/detail/fenxiang.png" mode='widthFix' />
+        <view class='detail_msg_inner_name'>
+            <text>分享佣金</text>
+            <view class='detail_msg_date_money'>
+                <text>2019-09-06  12:30</text>
+                <text>+600.00</text>
+            </view>
+        </view>
+    </view>
+    <view class='detail_msg_inner'>
+        <image src="../../../../images/user/retail/detail/tixian.png" mode='widthFix' />
+        <view class='detail_msg_inner_name'>
+            <text>分享佣金</text>
+            <view class='detail_msg_date_money'>
+                <text>2019-09-06  12:30</text>
+                <text>+600.00</text>
+            </view>
+        </view>
+    </view>
+</view>

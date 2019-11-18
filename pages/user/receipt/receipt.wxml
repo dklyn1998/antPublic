@@ -12,8 +12,8 @@
     </view>
     </view>
 </view>
-<!--中间购物篮部分-->
-<view class='main_cart'>
+<!--中间未开发票部分-->
+<view class='main_cart' wx:if="{{transForm==1}}">
   <!--每个单独部分-->
 <view class='goods_info'>
         <view class='sure_left'>
@@ -22,9 +22,9 @@
         <view class='sure_right'>
             <view class='goods_name'>
                 <text>企业画册设计</text>
-                <view class='fapiao_btn'>
+                <navigator class='fapiao_btn' url='./receptMsg/tecepiMsg'>
                     开发票
-                </view>
+                </navigator>
             </view>
             <view class='good_money'>
                 <text>金额</text>
@@ -43,9 +43,9 @@
         <view class='sure_right'>
             <view class='goods_name'>
                 <text>企业画册设计</text>
-                <view class='fapiao_btn'>
+                <navigator class='fapiao_btn' url='./receptMsg/tecepiMsg'>
                     开发票
-                </view>
+                </navigator>
             </view>
             <view class='good_money'>
                 <text>金额</text>
@@ -64,8 +64,33 @@
         <view class='sure_right'>
             <view class='goods_name'>
                 <text>企业画册设计</text>
-                <view class='fapiao_btn'>
+                <navigator class='fapiao_btn' url='./receptMsg/tecepiMsg'>
                     开发票
+                </navigator>
+            </view>
+            <view class='good_money'>
+                <text>金额</text>
+                <text>¥1688.00</text>
+            </view>
+            <view class='logo_data'>
+                <text>LOGO设计</text>
+                <text>2019.09.11</text>
+            </view>
+        </view>
+</view>
+</view>
+<!--已开发票-->
+<view class='main_cart' wx:if="{{transForm==0}}">
+  <!--每个单独部分-->
+<view class='goods_info'>
+        <view class='sure_left'>
+            <image src="../../../images/user/weikaifapiao.png" />
+        </view>
+        <view class='sure_right'>
+            <view class='goods_name'>
+                <text>企业画册设计</text>
+                <view class='fapiao_btn'>
+                    修改
                 </view>
             </view>
             <view class='good_money'>
@@ -78,4 +103,5 @@
             </view>
         </view>
 </view>
+
 </view>

@@ -1,0 +1,24 @@
+<!--顶部tab选项栏-->
+<view class='tabs'>
+    <view class='tabs_title'>
+    <view 
+    wx:for="{{tabs}}"
+    wx:key="id"
+    class='title_item {{item.isActive?"active":""}}'
+    bindtap="handletap"
+    data-index="{{index}}"
+    >
+        {{item.name}}
+    </view>
+    </view>
+</view>
+ <!-- 领取优惠券详情页面-->
+<view class='save_money_inner'>
+    <view class='youhuiquan_get'>
+        <image src="../../../images/index/detail/youhuiquan.png" mode='widthFix'/>
+        <text>LOGO优惠劵</text>
+        <text>￥50</text>
+        <text class='data_get'>有效期：2019.08.13-2019.09.13</text>
+        <text>立即领取</text>
+    </view> 
+ </view>

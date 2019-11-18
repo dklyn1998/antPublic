@@ -87,6 +87,12 @@ Page({
       isshow:2
     })
   },
+  /* 转到确认详情页面 */
+  prebook:function(){
+    wx.navigateTo({
+      url: './suredetail/shuredetail'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

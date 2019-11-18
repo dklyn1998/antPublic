@@ -1,0 +1,71 @@
+page {
+  background-color: #F9F9F9;
+}
+/* .tabs{} */
+.tabs_title {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 60rpx;
+}
+.title_item {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #333333;
+  font-size: 28rpx;
+}
+.active {
+  color: #FF7152;
+  border-bottom: 5rpx solid #FF3534;
+}
+/* 优惠券领取哦 */
+.save_money_inner {
+  width: 93%;
+  margin: 30rpx auto;
+}
+.save_money_inner .linquan {
+  font-size: 28rpx;
+  color: #666666;
+  margin-bottom: 30rpx;
+  display: block;
+}
+.save_money_inner .youhuiquan_get {
+  position: relative;
+  width: 100%;
+}
+.save_money_inner .youhuiquan_get image {
+  width: 100%;
+}
+.save_money_inner .youhuiquan_get text {
+  color: #fff;
+}
+.save_money_inner .youhuiquan_get text:nth-of-type(1) {
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 28rpx;
+}
+.save_money_inner .youhuiquan_get text:nth-of-type(2) {
+  position: absolute;
+  top: 50rpx;
+  left: 20rpx;
+  font-size: 55rpx;
+  font-weight: lighter;
+}
+.save_money_inner .youhuiquan_get text:nth-of-type(3) {
+  position: absolute;
+  top: 120rpx;
+  left: 20rpx;
+  font-size: 24rpx;
+}
+.save_money_inner .youhuiquan_get text:nth-of-type(4) {
+  position: absolute;
+  top: 60rpx;
+  right: 80rpx;
+  font-size: 36rpx;
+  font-weight: lighter;
+  color: #FF865D;
+}

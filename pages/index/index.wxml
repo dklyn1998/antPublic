@@ -32,7 +32,7 @@
          </swiper>
       </view>
       <!-- 广告logo部分-->
-   <image src="../../images/index/adlogo.png"  class='adlogo' mode='widthFix'/>
+   <image src="../../images/index/adlogo.png"  class='adlogo' mode='widthFix' bindtap="toAdMsg"/>
    <!-- tabvar栏目的设置-->
    <tabs></tabs>
    <!-- 图片区域设置-->
