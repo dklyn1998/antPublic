@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/user/retail/retail",
     "pages/user/receipt/receipt",
     "pages/user/myOrder/myOrder",
@@ -9,7 +10,6 @@
     "pages/anliDetail/anliDetail",
     "pages/index/detail/detail",
     "pages/taocanBasic/taocanBasic",
-    "pages/index/index",
     "pages/user/retail/moneyDetail/moneyDetail",
     "pages/user/retail/cash/cash",
     "pages/user/retail/myGroup/groupDetail/groupDetail",
@@ -63,5 +63,6 @@
         "text": "个人中心"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
